@@ -35,7 +35,7 @@ class JsonResponseComponent extends Object{
 	 */
 	public $viewVariable = 'json';
 	public $viewName = "/json_response/default";
-	public $layoutName = "plain";
+	public $layoutName = "raw";
 	
 	/**
 	 * Initializes the component
