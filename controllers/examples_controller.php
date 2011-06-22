@@ -8,6 +8,7 @@ class ExamplesController extends AppController
 	public $name = "Examples";
 	public $uses = array();
 	public $components = array("JsonResponse");
+	public $helpers = array("Javascript");
 	
 	function data_example(){
 		$this->JsonResponse->addData(array("name" => "foo"));
